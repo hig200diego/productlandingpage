@@ -28,6 +28,10 @@ p {
     margin: 0.75rem 0;
 }
 
+.shadow {
+    box-shadow: 0 0 20px #ccc;
+}
+
 .container {
     max-width: 1155px;
     margin: auto;
@@ -92,6 +96,9 @@ p {
 }
 
 /* Showcase */
+#showcase {
+    margin-bottom: 50px;
+}
 
 #showcase .container {
     display: flex;
@@ -111,8 +118,9 @@ p {
 }
 
 .hero-text h1 {
-    font-size: 40px;
+    font-size: 35px;
     color: var(--secondary);
+    letter-spacing: 3px;
 }
 
 #email {
@@ -142,4 +150,40 @@ p {
 
 #submit:hover {
     background-color: #2196f3;
+}
+
+/* Video Section */
+#video-section {
+    max-width: 1155px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding: 0 2rem;
+    overflow: hidden;
+
+
+    display: flex;
+
+    
+}
+
+#video-section .description,
+#video-section .video-area {
+    margin-right: 30px;
+}
+
+#video-section .video-area {
+    flex: 2;
+}
+
+.description h2 {
+    color: var(--secondary);
+}
+
+.description p {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777777;
+    line-height: 24px;
 }
