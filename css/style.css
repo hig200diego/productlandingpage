@@ -36,7 +36,6 @@ p {
 }
 
 /* Header */
-
 #header {
     max-width: 1155px;
     margin: auto;
@@ -85,5 +84,62 @@ p {
     margin: 12px 0px 0px 25px;
     padding: 5px 18px;
     border-radius: 30px;
+    transition: background-color 0.3s;
 }
 
+.btn-buy:hover {
+    background-color: #2196f3;
+}
+
+/* Showcase */
+
+#showcase .container {
+    display: flex;
+    margin-top: 70px;
+    
+}
+
+#showcase .container .product-img,
+#showcase .container .hero-text {
+    margin-right: 30px;
+}
+
+.product-img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: var(--secondary);
+}
+
+#email {
+    width: 100%;
+    height: 50px;
+    margin-top: 17px;
+    border: 1px solid #e6f0fa;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#submit {
+    margin-top: 17px;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0px 0px;
+    border: 0;
+    border-radius: 25px;
+    background-color: var(--primary);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #2196f3;
+}
