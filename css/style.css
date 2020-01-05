@@ -187,3 +187,26 @@ p {
     color: #777777;
     line-height: 24px;
 }
+
+/* Features */
+
+#features {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.features-template {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+}
+
+ion-icon {
+    margin-left: 17%;
+    font-size: 64px;
+    color: var(--secondary);
+}
+
+.features-template div p {
+    font-size: 17px;
+}
