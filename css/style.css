@@ -8,6 +8,7 @@
     --primary: #0A80DD;
     --secondary: #373737;
     --light: #F7F7F9;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 body {
@@ -37,6 +38,10 @@ p {
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* Header */
@@ -209,4 +214,44 @@ ion-icon {
 
 .features-template div p {
     font-size: 17px;
+}
+
+/* Products */
+#pricing {
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    max-width: 1155px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+
+}
+
+.box {
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box p,
+.box h3 {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.box h3 {
+    font-size: 20px;
+    color: var(--secondary);
+    letter-spacing: 2px;
+}
+
+.box p {
+    font-size: 24px;
+    color: var(--primary);
+    font-weight: 900;
 }
