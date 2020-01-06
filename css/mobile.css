@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    #header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-img {
+        text-align: center;
+    }
+
+    #nav-bar ul li .nav-link {
+        font-size: 13px;
+    }
+
+    #showcase .container {
+        flex-direction: column;
+    }
+
+    .hero-text h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #video-section {
+        flex-direction: column;
+    }
+
+    #video-section .description {
+        display: none;
+    }
+
+    #video {
+        max-width: 500px;
+        padding: 30px;
+    }
+}
