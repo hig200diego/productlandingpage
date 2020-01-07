@@ -30,7 +30,30 @@
     }
 
     #video {
-        max-width: 500px;
-        padding: 30px;
+       width: 300px;
+       height: auto;
+    }
+
+    .features-template {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    #video-section {
+        flex-direction: column;
+    }
+
+   .description h2 {
+       text-align: center;
+   }
+}
+
+@media only screen and (min-width: 768px)  {
+    #video-section {
+        flex-direction: row;
     }
 }

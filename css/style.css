@@ -59,16 +59,6 @@ img {
     justify-content: space-between;
 }
 
-#header-img {
-    color: var(--secondary);
-    font-size: 35px;
-    font-weight: bold;
-}
-
-#header-img span {
-    color: var(--primary);
-    font-weight: lighter;
-}
 
 #nav-bar ul {
     display: flex;
